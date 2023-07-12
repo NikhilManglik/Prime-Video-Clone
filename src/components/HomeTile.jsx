@@ -110,9 +110,9 @@ function ListItem(props) {
                           >
                             <path
                               fill="currentColor"
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40ZM29.761 55.536V25.575c0-1.724 1.877-2.791 3.359-1.91l25.178 14.98c1.447.862 1.447 2.959 0 3.82L33.12 57.446c-1.482.882-3.359-.186-3.359-1.91Z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
                           <title>Play Button</title>
@@ -142,9 +142,9 @@ function ListItem(props) {
                         <path
                           d="M3 12h18m-9 9V3"
                           stroke="currentColor"
-                          stroke-width="2"
+                          strokeWidth="2"
                           fill="none"
-                          stroke-linecap="round"
+                          strokeLinecap="round"
                         ></path>
                       </svg>
                     </svg>
@@ -156,7 +156,6 @@ function ListItem(props) {
                 <div className="home-tile-details-buttons-info-div">
                   <a href="" className="home-tile-details-buttons-info-a">
                     <svg
-                      class="_22qEau"
                       viewBox="0 0 24 24"
                       height="24"
                       width="24"
@@ -171,14 +170,14 @@ function ListItem(props) {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <title>Info</title>
-                        <g fill="none" fill-rule="evenodd">
+                        <g fill="none" fillRule="evenodd">
                           <path
                             d="M11 10.097c0-.603.439-1.097.976-1.097h.049c.536 0 .975.494.975 1.097v6.805c0 .604-.439 1.098-.975 1.098h-.05c-.536 0-.975-.494-.975-1.098v-6.805zM11 6h2v2h-2z"
                             fill="currentColor"
                           ></path>
                           <circle
                             stroke="currentColor"
-                            stroke-width="2"
+                            strokeWidth="2"
                             cx="12"
                             cy="12"
                             r="9"

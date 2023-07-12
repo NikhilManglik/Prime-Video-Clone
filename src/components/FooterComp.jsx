@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <div class="pv-logo"></div>
+      <div className="pv-logo"></div>
       <ul
         style={{
           justifyContent: "center",
