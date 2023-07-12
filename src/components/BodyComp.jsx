@@ -5,11 +5,11 @@ import ContentCarousel from "./ContentCarousel";
 
 function Body() {
   return (
-    <body style={{ backgroundColor: "pink" }}>
+    <div style={{ backgroundColor: "black" }}>
       <HomeCarousel />
       <ContentCarousel />
       {/* <ContentCarousel /> */}
-    </body>
+    </div>
   );
 }
 

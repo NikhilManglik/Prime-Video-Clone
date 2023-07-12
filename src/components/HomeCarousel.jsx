@@ -56,8 +56,8 @@ function HomeCarousel() {
           }
         });
       },
-      { rootMargin: "100% 0% 100% 0%" }
-      // { threshold: 1 }
+      // { rootMargin: "100% 0% 100% 0%" },
+      { threshold: 0.1 }
     );
     observer.observe(event);
   }
@@ -74,8 +74,8 @@ function HomeCarousel() {
           }
         });
       },
-      { rootMargin: "100% 0% 100% 0%" }
-      // { threshold: 1 }
+      // { rootMargin: "100% 0% 100% 0%" }
+      { threshold: 0.1 }
     );
     observer.observe(event);
   }

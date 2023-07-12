@@ -6,11 +6,11 @@ import FooterComp from "./FooterComp";
 
 function App() {
   return (
-    <div>
+    <body>
       <HeaderComp />
       <BodyComp />
       <FooterComp />
-    </div>
+    </body>
   );
 }
 
