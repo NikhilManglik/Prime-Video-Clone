@@ -79,9 +79,10 @@ function ContentCarousel() {
             alignItems: "center",
             display: "flex",
             flexDirection: "row",
+            color: "#fff",
           }}
         >
-          Movies List
+          Popular Movies and TV shows
         </h2>
       </div>
       <div>

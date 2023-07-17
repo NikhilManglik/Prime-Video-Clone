@@ -136,7 +136,7 @@ function Header() {
                   <li className="header-li header-li-position">
                     <label className="header-li-label">
                       <a href="" className="header-li-anchor">
-                        Live Tv
+                        Live TV
                       </a>
                     </label>
                   </li>

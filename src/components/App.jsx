@@ -6,7 +6,7 @@ import FooterComp from "./FooterComp";
 
 function App() {
   return (
-    <body>
+    <body style={{ backgroundColor: "black" }}>
       <HeaderComp />
       <BodyComp />
       <FooterComp />

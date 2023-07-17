@@ -3,14 +3,14 @@ import ReactDOM from "react-dom/client";
 import HomeCarousel from "./HomeCarousel";
 import ContentCarousel from "./ContentCarousel";
 
-function Body() {
+function BodyComp() {
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div>
       <HomeCarousel />
       <ContentCarousel />
-      {/* <ContentCarousel /> */}
+      <ContentCarousel />
     </div>
   );
 }
 
-export default Body;
+export default BodyComp;

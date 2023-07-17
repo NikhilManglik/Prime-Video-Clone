@@ -19,7 +19,8 @@ function ContentTile(props) {
     <li
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
-      style={{ marginRight: 24, height: 140, width: 248 }}
+      style={{ marginRight: 24 }}
+      // height: 140, width: 248
     >
       <article>
         <section style={{ zIndex: 2 }}>
