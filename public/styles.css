@@ -133,13 +133,11 @@ li {
   /* max-height: 140px; */
   z-index: 20;
   position: relative;
-  /* background-color: transparent; */
   background-color: rgba(0, 5, 13, 0.5);
-  min-width: 24px;
-
   border: none;
-  /* border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px; */
+}
+.pain.home-carousel .arrowbutton {
+  background: 0 0;
 }
 .not_display {
   display: none !important;
